@@ -5,18 +5,16 @@ After we are successfully booted to ubuntu 20.x, as we loo through the terminal 
 So what's left to install for our python setup to be development ready.
 
 ## `mandatory`
-- **`pip`**<br>
+### `pip`<br>
 Even after the support for python2 version has been taken off, ubuntu still uses python2.x, so when installing the pip version for pip3 we need to specify the version.<br>
-
 `sudo apt install python3-pip`<br>
 
 Once downloaded it'll be available as PATH, hence we can call it directly from terminal anywhere in the system.<br>
-
 `pip3 --version`<br>
 
 ## `optional`
 I usually prefer :
-- **`pipenv`**<br>
+### `pipenv`<br>
 Python wrapper for creating and managing **virtualenvs** *(virtual environment)*. It comes really handy when managing different python project with different dependencies. Even as a beginner where you don't have that many projects to manage, it's a great practice to follow. For more we can follow official docs or this gude [here](https://realpython.com/pipenv-guide).
 
 
