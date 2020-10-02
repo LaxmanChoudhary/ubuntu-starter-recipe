@@ -1,3 +1,3 @@
 # novice-ubuntu
 
-### [python starter-setup](./starter/python-setup.md)
+- [python starter-setup](./starter/python-setup.md)
