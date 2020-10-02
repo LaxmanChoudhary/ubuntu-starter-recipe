@@ -17,7 +17,6 @@ I usually prefer :
 ### `pipenv`<br>
 Python wrapper for creating and managing **virtualenvs** *(virtual environment)*. It comes really handy when managing different python project with different dependencies.<br>
 Even as a beginner where you don't have that many projects to manage, it's a great practice to follow.<br>
-For more we can follow official docs or this gude [here](https://realpython.com/pipenv-guide).
 **steps to setup pipenv in ubuntu**<br>
 `pip3 install pipenv --user`<br>
 
@@ -29,6 +28,7 @@ Now we have installed `pipenv` as python3 package and we can access **pipenv** u
 4. At the very end of file on a newline, add `export PATH="<dir-path>:$PATH"` where <**dir-path**> should be replaced with the path to your binary folder where pipenv is contained usually `/home/<user-name>/.local/bin` (can be obtained when installing *pipenv* as WARNING).<br>
 5. To refresh the new path variables, type `source .profile` or logoff, then logon.<br>
 Now PATH to pipenv is successfully added, that means we can use `pipenv` directly. Test by `pipenv --version`. <br>
+For more we can follow official docs or this gude [here](https://realpython.com/pipenv-guide).
 
 
 https://packages.ubuntu.com/
